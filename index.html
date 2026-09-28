@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portal Pengajuan Kredit PT. JKL</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">Portal pengajuan kredit kendaraan<small>PT. JKL, alur digital dari dealer sampai pencairan</small></div>
+  <nav class="roles" id="roles" aria-label="Pilih peran"></nav>
+</header>
+<main>
+  <section class="panel" aria-label="Daftar pengajuan">
+    <div class="ph"><h2 style="font-size:16px">Pengajuan</h2><span id="newBtnWrap"></span></div>
+    <div class="list" id="list"></div>
+  </section>
+  <section class="panel" id="detail" aria-live="polite"></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
